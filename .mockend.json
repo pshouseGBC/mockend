@@ -1,7 +1,7 @@
 {
     "Turn": {
       "title": { "string": {} },
-      "comments": {
+      "checklists": {
         "hasMany": "Checklist"
       }
     },
