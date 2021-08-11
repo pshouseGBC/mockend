@@ -1,6 +1,7 @@
 {
     "Turn": {
-      "title": { "string": {} },
+      "market": { "string": ["Atlanta","Baltimore","Charlotte"] },
+      "completed": {"boolean":{}},
       "checklists": {
         "hasMany": "Checklist"
       }
