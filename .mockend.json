@@ -5,15 +5,5 @@
         "hasMany": "CheckList"
       },
       "Completed": {"boolean": {}}
-    },
-    "CheckList": {
-      "ID": { "string": {} },
-      "Turn": {
-        "belongsTo": "Turn"
-      },
-      "Deployed": {"boolean": {}},
-      "Archived": {"boolean": {}},
-      "Submissions": {"int": {"min":0, "max":1}}
-
     }
   }
