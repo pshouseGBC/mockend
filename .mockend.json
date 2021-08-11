@@ -1,13 +1,21 @@
-{
+{   
+    "Property": {
+      "name": {"string":{}},
+      "streetaddress": {"string":{}},
+      "market": { "string": ["Atlanta","Baltimore","Charlotte"] }
+      
+    },
     "Turn": {
-      "market": { "string": ["Atlanta","Baltimore","Charlotte"] },
       "completed": {"boolean":{}},
       "checklists": {
         "hasMany": "Checklist"
+      },
+      "property": {
+        "belognsTo": "Property"
       }
     },
     "Checklist": {
-      "deployed": { "boolean": {} },
+      "deployed": { "boolean": {}},
       "archived": { "boolean": {}},
       "submissions": { "int": {"min":0, "max":1}},
       "turn": {
