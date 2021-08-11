@@ -2,8 +2,10 @@
     "Property": {
       "name": {"string":{}},
       "streetaddress": {"string":{}},
-      "market": { "string": ["Atlanta","Baltimore","Charlotte"] }
-      
+      "market": { "string": ["Atlanta","Baltimore","Charlotte"] },
+      "turns": {
+        "hasMany": "Turn"
+      }
     },
     "Turn": {
       "completed": {"boolean":{}},
