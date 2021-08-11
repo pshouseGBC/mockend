@@ -2,10 +2,10 @@
     "Turn": {
       "title": { "string": {} },
       "comments": {
-        "hasMany": "Comment"
+        "hasMany": "CheckList"
       }
     },
-    "Comment": {
+    "CheckList": {
       "body": { "string": {} },
       "post": {
         "belongsTo": "Post"
