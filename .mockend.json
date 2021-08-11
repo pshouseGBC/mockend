@@ -1,7 +1,6 @@
 {
     "Turn": {
-      "ID": { "string": {} },
-      "CheckLists": {
+      "checkLists": {
         "hasMany": "CheckList"
       },
       "Completed": {"boolean": {}}
