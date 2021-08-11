@@ -1,9 +1,14 @@
 {
-    "Turn": {
-      "checkLists": {
-        "hasMany": "CheckList"
-      },
-      "Completed": {"boolean": {}}
+    "Post": {
+      "title": { "string": {} },
+      "comments": {
+        "hasMany": "Comment"
+      }
     },
-    "CheckList": {}
+    "Comment": {
+      "body": { "string": {} },
+      "post": {
+        "belongsTo": "Post"
+      }
+    }
   }
