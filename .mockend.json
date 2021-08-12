@@ -3,6 +3,7 @@
       "name": {"string":{}},
       "streetaddress": {"string":{}},
       "market": { "string": ["Atlanta","Baltimore","Charlotte"] },
+      "createddate": {"dateTime": {}},
       "turns": {
         "hasMany": "Turn"
       }
