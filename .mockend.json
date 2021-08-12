@@ -3,7 +3,7 @@
       "name": {"string":{}},
       "streetaddress": {"string":{}},
       "market": { "string": ["Atlanta","Baltimore","Charlotte"] },
-      "createddate": {"dateTime": {}},
+      "createddate": {"min":"2010-01-01T00:00:00Z","max":"2021-08-11T00:00:00Z"},
       "turns": {
         "hasMany": "Turn"
       }
